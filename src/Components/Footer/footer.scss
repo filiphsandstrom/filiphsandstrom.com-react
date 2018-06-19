@@ -1,4 +1,8 @@
 @import '../../scss/shared.scss';
 
 footer {
+    min-height: 150px;
+
+    background-color: #5cb59c;
+    background: linear-gradient(180deg, #5cb59c 0%, darken(#5cb59c, 10%) 100%);
 }

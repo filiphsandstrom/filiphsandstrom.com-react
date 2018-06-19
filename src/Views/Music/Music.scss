@@ -1,0 +1,31 @@
+.music-page {
+    display: flex;
+    margin: 45px 0px;
+
+    .selected-track {
+        flex-grow: 1;
+        display: inline-block;
+        width: calc(100% - 350px);
+
+        .selected-track-title {
+            padding-top: 25px;
+            font-weight: 100;
+            font-size: 2.5rem;
+        }
+        .selected-track-description {
+            padding-top: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+    }
+    .list {
+        flex-grow: 0;
+        display: inline-block;
+        overflow-y: scroll;
+        width: 350px;
+        max-height: 80vh;
+        margin: 0px 25px;
+    }
+}

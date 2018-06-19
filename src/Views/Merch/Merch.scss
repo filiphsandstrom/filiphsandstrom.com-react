@@ -1,0 +1,17 @@
+.merch-page {
+    width: 100vw;
+    overflow: hidden;
+
+    #sprd-main {
+        min-height: 100%;
+    }
+    .SprdMain, .sprd-footer {
+        max-width: 100vw;
+    }
+    .sprd-footer {
+        display: none;
+    }
+    .SprdMain {
+        background: transparent !important;
+    }
+}
