@@ -1,8 +1,45 @@
 @import '../../scss/shared.scss';
 
-footer {
-    min-height: 150px;
+.footer-wrapper {
+    .social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    background-color: #5cb59c;
-    background: linear-gradient(180deg, #5cb59c 0%, darken(#5cb59c, 10%) 100%);
+        a {
+            display: inline-block;
+            padding: 25px 15px;
+
+            transition: 250ms ease;
+            cursor: pointer;
+
+            img {
+                height: 35px;
+                width: 35px;
+            }
+
+            &:hover {
+                transform: translateY(-5px);
+            }
+        }
+    }
+
+    footer {
+        position: relative;
+        min-height: 150px;
+        padding-bottom: 50px;
+
+        background-color: #5cb59c;
+        background: linear-gradient(180deg, #5cb59c 0%, darken(#5cb59c, 10%) 100%);
+
+        .copyrights {
+            position: absolute;
+            bottom: 0px; left: 0px; right: 0px;
+            width: 100vw;
+            padding: 15px 0px;
+
+            text-align: center;
+            color: #fff;
+        }
+    }
 }

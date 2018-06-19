@@ -4,11 +4,13 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "dc-react-gallery": "^0.0.3",
     "moment": "^2.22.2",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.1.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-instagram-embed": "^1.4.0",
     "react-redux": "^5.0.7",
     "react-responsive-embed": "^2.1.0",
     "react-router": "^4.2.0",

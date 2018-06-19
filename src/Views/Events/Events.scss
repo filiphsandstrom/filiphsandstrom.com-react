@@ -1,6 +1,13 @@
 @import '../../scss/shared.scss';
 
 .events-page {
+
+    .events {
+        overflow: hidden;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
     .bookings {
         padding: 25px 0px;
 
