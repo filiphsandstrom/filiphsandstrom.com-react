@@ -2,6 +2,7 @@
   "name": "filiphsandstrom-react",
   "version": "1.0.0",
   "private": true,
+  "homepage" : "http://www.filiphsandstrom.com",
   "dependencies": {
     "axios": "^0.18.0",
     "dc-react-gallery": "^0.0.3",

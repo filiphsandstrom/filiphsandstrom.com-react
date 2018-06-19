@@ -14,7 +14,7 @@ class Event extends Component {
                         <div className="text location">{this.props.data.location}</div>
                     </div>
                     {
-                        this.props.data.private || this.props.data.status ?
+                        (!this.props.past_event || this.props.data.private) || this.props.data.status ?
                         <div className="tickets"><a className="ticket private">{this.props.data.status}</a></div>  :
                         <div className="tickets">
                             <a className="ticket" href={this.props.data.tickets.normal}>Buy Ticket</a>

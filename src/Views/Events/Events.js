@@ -20,7 +20,7 @@ class Events extends Component {
             if (1 > moment(EventsData[i].date).diff(today, 'days'))
                 past_events.push(<Event key={i} data={EventsData[i]}/>);
             else
-                events.push(<Event key={i} data={EventsData[i]}/>);
+                events.push(<Event key={i} past_event={true} data={EventsData[i]}/>);
         }
 
         return (

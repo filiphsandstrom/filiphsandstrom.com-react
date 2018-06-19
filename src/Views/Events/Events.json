@@ -13,7 +13,6 @@
             "vip": null
         }
     },
-
     {
         "id": "2",
         "private": false,
@@ -22,6 +21,20 @@
         "location": "Mellerud, Sweden",
         "date": "03/25/2019",
         "time": "17:00",
+
+        "tickets": {
+            "standard": null,
+            "vip": null
+        }
+    },
+    {
+        "id": "3",
+        "private": false,
+        "status": "",
+        "title": "Prince Tribute",
+        "location": "Mellerud, Sweden",
+        "date": "10/29/2016",
+        "time": "11:00",
 
         "tickets": {
             "standard": null,
