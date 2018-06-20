@@ -1,9 +1,23 @@
 [
     {
-        "id": "1",
+        "id": "2016-1",
+        "private": false,
+        "status": "",
+        "title": "Prince Tribute",
+        "location": "Mellerud, Sweden",
+        "date": "10/29/2016",
+        "time": "11:00",
+
+        "tickets": {
+            "standard": null,
+            "vip": null
+        }
+    },
+    {
+        "id": "2018-1",
         "private": true,
         "status": "Private event",
-        "title": "Acando Rooftop Party",
+        "title": "TBA",
         "location": "Stockholm, Sweden",
         "date": "09/07/2018",
         "time": "17:00",
@@ -14,27 +28,13 @@
         }
     },
     {
-        "id": "2",
+        "id": "2019-1",
         "private": false,
         "status": "TBA",
         "title": "Mellerud's Kulturdag",
         "location": "Mellerud, Sweden",
         "date": "03/25/2019",
         "time": "17:00",
-
-        "tickets": {
-            "standard": null,
-            "vip": null
-        }
-    },
-    {
-        "id": "3",
-        "private": false,
-        "status": "",
-        "title": "Prince Tribute",
-        "location": "Mellerud, Sweden",
-        "date": "10/29/2016",
-        "time": "11:00",
 
         "tickets": {
             "standard": null,
