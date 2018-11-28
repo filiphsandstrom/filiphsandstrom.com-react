@@ -31,18 +31,21 @@ class Header extends Component {
                         </div>
                     </div>
                     <nav className={this.state.menuOpen ? "open" : ""} onClick={this.toggleMenu}>
-                        <Link to="/">
+                        {/*<Link to="/">
                             Home
+                        </Link>*/ null}
+                        <Link to="/freelance">
+                            Freelance
                         </Link>
-                        <Link to="/events">
+                        {/*<Link to="/events">
                             Events
-                        </Link>
+                        </Link>*/ null}
                         <Link to="/music">
                             Music
                         </Link>
-                        <Link to="/merch">
+                        {/*<Link to="/merch">
                             Merch
-                        </Link>
+                        </Link>*/ null}
                     </nav>
                 </div>
             </header>

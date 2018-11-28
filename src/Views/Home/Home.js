@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Redirect, Route } from 'react-router-dom';
 
 import News from '../../Components/News';
 import InstagramFeed from '../../Components/InstagramFeed';
@@ -13,6 +14,8 @@ class Home extends Component {
     render() {
         return (
 			<div className="home">
+                <Redirect to="/freelance"/>
+
                 <div className="extended-container">
                     <h1 className="title main-title">Howdy o' Hi!</h1>
                 </div>

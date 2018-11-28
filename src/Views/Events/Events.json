@@ -26,19 +26,5 @@
             "standard": null,
             "vip": null
         }
-    },
-    {
-        "id": "2019-1",
-        "private": false,
-        "status": "TBA",
-        "title": "Mellerud's Kulturdag",
-        "location": "Mellerud, Sweden",
-        "date": "03/25/2019",
-        "time": "17:00",
-
-        "tickets": {
-            "standard": null,
-            "vip": null
-        }
     }
 ]
