@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
-class Freelance extends Component {
-    componentDidMount() {
-        document.title = "Freelance - Filiph Sandstrom"; // FIXME:
-    }
-
+class Portfolio extends Component {
     render() {
         return (
-			<div>
+            <div>
+                <Helmet>
+                    <title>Freelance - Filiph Sandstrom</title>
+                </Helmet>
+
                 <div className="extended-container">
                     <h1 className="title main-title">Freelance</h1>
                 </div>
                 <div className="events-page align-center">
                     <h4>
-                        Howdy,<br/>
-                        I'm available for quick and simple <i>Web</i> or <i>C++</i> work.<br/>
+                        Howdy,
+                        <br />
+                        I'm available for quick and simple <i>Web</i> or{' '}
+                        <i>C++</i> work.
+                        <br />
                     </h4>
 
                     <div className="bookings">
@@ -26,4 +30,4 @@ class Freelance extends Component {
     }
 }
 
-export default Freelance;
+export default Portfolio;

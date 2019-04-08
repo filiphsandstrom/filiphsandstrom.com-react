@@ -8,44 +8,49 @@ class Header extends Component {
         menuOpen: false
     };
 
-    constructor (props) {
+    constructor(props) {
         super(props);
 
         this.toggleMenu = this.toggleMenu.bind(this);
     }
 
-    toggleMenu (id) {
-        this.setState({menuOpen: !this.state.menuOpen});
+    toggleMenu(id) {
+        this.setState({ menuOpen: !this.state.menuOpen });
     }
 
-    render () {
+    render() {
         return (
             <header>
                 <div className="content">
                     <div className="logo">
                         Filiph Sandstrom
                         <div className="menu-toggle" onClick={this.toggleMenu}>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                            <div />
+                            <div />
+                            <div />
                         </div>
                     </div>
-                    <nav className={this.state.menuOpen ? "open" : ""} onClick={this.toggleMenu}>
-                        {/*<Link to="/">
+                    <nav
+                        className={this.state.menuOpen ? 'open' : ''}
+                        onClick={this.toggleMenu}
+                    >
+                        {
+                            /*<Link to="/">
                             Home
-                        </Link>*/ null}
-                        <Link to="/freelance">
-                            Freelance
-                        </Link>
-                        {/*<Link to="/events">
+                        </Link>*/ null
+                        }
+                        <Link to="/portfolio">Portfolio</Link>
+                        {
+                            /*<Link to="/events">
                             Events
-                        </Link>*/ null}
-                        <Link to="/music">
-                            Music
-                        </Link>
-                        {/*<Link to="/merch">
+                        </Link>*/ null
+                        }
+                        {null && <Link to="/music">Music</Link>}
+                        {
+                            /*<Link to="/merch">
                             Merch
-                        </Link>*/ null}
+                        </Link>*/ null
+                        }
                     </nav>
                 </div>
             </header>
