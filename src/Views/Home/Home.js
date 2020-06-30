@@ -14,7 +14,7 @@ class Home extends Component {
     render() {
         return (
 			<div className="home">
-                <Redirect to="/freelance"/>
+                <Redirect to="/music"/>
 
                 <div className="extended-container">
                     <h1 className="title main-title">Howdy o' Hi!</h1>
